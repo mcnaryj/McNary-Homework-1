@@ -17,18 +17,24 @@ header {
     color: #ffffff;
 }
 
+.container {
+    display:flex;
+    justify-content:space-between;
+    text-align: center;  
+  }
 
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* added selector for the nav bar */
-nav {
-    display: inline-end;
-    text-align: right;
-    margin-right: 200px;
-}
+/* added id for the nav bar */
+.navbar li{
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 100px;
+
+  }
 
 #seo {
     color: #d9dcd6;
