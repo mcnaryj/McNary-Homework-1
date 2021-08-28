@@ -8,19 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
-/* changed header from class to a selector, consolidated the below lines, changed padding to 20px */
+/* changed header from class to a selector, consolidated the below lines, changed padding to 20px (was using a class, but realized the selector will work too. */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-/* added a container class to help space & center the navbar */
-.container {
     display:flex;
     justify-content:space-between;
     text-align: center;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
 h1 {
@@ -28,18 +24,21 @@ h1 {
     font-size: 48px;
 }
 
-
 /* added class for the nav bar, used li selector, tweaked margins, added font-size and font-family */
 .navbar li {
     display:inline-block;
     margin-top: 20px;
-    margin-right: 100px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+/* moved up to align better w/html */
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /* removed extraneous .header class */
-
-
-
 
 #seo {
     color: #d9dcd6;
@@ -67,11 +66,6 @@ main {
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 p {
