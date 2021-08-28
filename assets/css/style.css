@@ -1,4 +1,3 @@
-/* added white as a universal font */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,43 +8,51 @@ body {
     background-color: #d9dcd6;
 }
 
-/* changed header from class to a selector, consolidated the below lines */
+/* changed header from class to a selector, consolidated the below lines, changed padding to 20px */
 header {
-    padding: 10px;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/* added a container class to help space & center the navbar */
 .container {
     display:flex;
     justify-content:space-between;
     text-align: center;  
-  }
+}
 
 h1 {
-    display: inline-block;
+    display:inline-block;;
     font-size: 48px;
 }
 
-/* added id for the nav bar */
-.navbar li{
+
+/* added class for the nav bar, used li selector, tweaked margins, added font-size and font-family */
+.navbar li {
     display:inline-block;
     margin-top: 20px;
     margin-right: 100px;
+}
 
-  }
+/* removed extraneous .header class */
+
+
+
 
 #seo {
     color: #d9dcd6;
 }
 
-.header {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    font-size: 48px;
+/* changed to id, instead of class, moved up in order */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* changed content class to main selector, moved up in order */
@@ -55,8 +62,9 @@ main {
     margin-left: 20px;
 }
 
-/* consolidated header classes into selector */
-h2 content {
+
+/* consolidated header classes into h2 selector */
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -70,7 +78,7 @@ p {
     font-size: 16px;
 }
 
-/*consolidated classes into ids, combined b/c the characteristics are the same */
+/*consolidated classes into ids, combined b/c the characteristics are the same, and moved up in order */
 #search-engine-optimization, #online-reputation-management, #social-media-marketing  {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,16 +91,6 @@ p {
 /* consolidated image ids */
 #search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
     max-height: 200px;
-}
-
-/* changed to id, instead of class */
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .float-left {
@@ -121,7 +119,7 @@ p {
     text-align: center;
 }
 
-/* changed classes to ids, consolidated */
+/* changed classes to ids, consolidated into one line */
 #benefit-lead, #benefit-brand, #benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,10 +132,10 @@ p {
     max-width: 150px;
 }
 
-/* changed font size to 18px */
+/* changed font size to 16px */
 h3 {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* changed from class to footer selector */
