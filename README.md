@@ -36,7 +36,7 @@ The title is the name of the company. I have elected to use this title as compan
 ## Mock-Up
 
 The below image demonstrates the appearance and functionality of the webpage, with the caption directly quoted from the readme for this assignment, as after seeing it I felt it didn't make sense to word it differently:
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](McNary-Homework-1/assets/images/01-html-css-git-homework-demo.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./McNary-Homework-1/assets/images/01-html-css-git-homework-demo.png)
 
 ## Notes
 
