@@ -29,7 +29,7 @@ THEN I find a concise, descriptive title
 ```
 The content has been altered to read semantically, and the order of both the index.html as well as the style.css file has been modified to follow a logical structure independent of styling and positioning.
 
-The image and icon attributes have been amended to include alt text, and are arranged in sequential order.
+The image and icon attributes have been amended to include alt text, and the header is arranged in sequential order.
 
 The title is the name of the company. I have elected to use this title as companies like Google will have that be the title (or new tab), and the one word should be enough to inform the user about the page.
 
