@@ -1,6 +1,6 @@
 # HORISEON
 
-HORISEON is a website about search engine optimization.
+HORISEON is search engine optimization company, and this is their supposed homepage.
 
 ## Installation/Viewing the Files
 
