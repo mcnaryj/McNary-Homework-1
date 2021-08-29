@@ -10,29 +10,30 @@ body {
 
 /* changed header from class to a selector, consolidated the below lines, changed padding to 20px (was using a class, but realized the selector will work too. */
 header {
-    padding: 20px;
-    display:flex;
-    justify-content:space-between;
-    text-align: center;  
+    padding: 15px;
+    display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    white-space: normal;
 }
 
 h1 {
-    display:inline-block;;
+    display: inline-block;;
     font-size: 48px;
+    margin-right: 55px;
 }
 
-/* added class for the nav bar, used li selector, tweaked margins, added font-size and font-family */
+/* added class for the nav bar, used li selector, tweaked margins, changed font size to 18px */
 .navbar li {
-    display:inline-block;
-    margin-top: 20px;
-    margin-right: 50px;
-    font-size: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-/* moved up to align better w/html */
+/* moved up to align better w/html, only anchor tags in the doc */
 a {
     color: #ffffff;
     text-decoration: none;
